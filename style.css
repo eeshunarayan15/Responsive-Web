@@ -198,11 +198,11 @@ text-transform: uppercase;
         font-size: 10px;
     }
     #right h3{
-       font-size: 10px;
+       font-size: 5px;
        
     }
     #right h1{
-        font-size: 35px;
+        font-size: 15px;
         
      }
 #text h3 h1{
@@ -212,16 +212,30 @@ text-transform: uppercase;
 
 
     #right #text{
-        padding: 20px;
+        padding: 10px;
+        width: 80%;
     }
     #text input{
-        width: 100%;
-        padding: 12px 12px;
+        width: 70%;
+        font-size: 20px;
+        padding: 5px 5px;
         border: none;
         color: #fff;
         background-color:rgba(0, 0, 0, 0);
         outline: none;
     }
-    
+    input::placeholder {
+        font-size: 10px; /* Adjust the font size as needed */
+        color: #888; /* Optional: Change the placeholder text color */
+    }
+    #input i{
+        font-size: 8px;
+    }
+    #icon h1{
+        font-size: 10px;
+        
+    }
+ 
+
 }
 
